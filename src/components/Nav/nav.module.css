@@ -1,0 +1,94 @@
+.allContainers {
+  display: flex;
+}
+
+.mainContainer {
+  position: fixed;
+  background: #121212;
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  z-index: 2;
+}
+
+.leftContainer {
+  margin-right: 30px;
+}
+
+.youtubeLogoIcon {
+  width: 189px;
+  align-items: center;
+  padding-left: 13px;
+  text-decoration: none;
+
+}
+
+.youtubeLogoIcon > div {
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  
+}
+
+.middleContainer {
+  flex-grow: 1;
+  max-width: 732px;
+
+  /* margin: auto; */
+}
+@media screen and (min-width: 650px){
+  .mobileSearchBackBtn {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 650px){
+.middleContainer {
+  /* flex-start: right; */
+  /* flex-grow: 0; */
+
+
+}
+
+.mobileSearchBackBtn {
+  display: block;
+}
+
+.mainContainer {
+  /* justify-content: start; */
+}
+.allContainers:nth-child(1) {
+  margin-right: auto;
+}
+
+.allContainers:nth-child(2) {
+  margin-right: 0;
+}
+
+.allContainers:nth-child(3) {
+  margin-right: 0;
+}
+
+}
+
+.textFieldContainer {
+  width: 100%;
+}
+
+.dropDown {
+  position: absolute;
+  top: 60px;
+  right: 24px;
+  background: #121212;
+  padding: 12px;
+  z-index: 2;
+}
+
+.dropDown > div {
+  margin: 2px 0;
+}

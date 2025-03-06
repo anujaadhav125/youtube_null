@@ -1,0 +1,20 @@
+.mainContainer, .reactionContainer {
+    display: flex;
+}
+
+.mainContainer {
+    margin: 8px 0 8px 0;
+}
+
+.mainContainer > div {
+    margin: 0 8px 0 0;
+}
+
+.logoContainer, .logoContainer > img {
+    border-radius: 50%;
+}
+
+.commentAuthorNameText {
+    padding: 4px;
+    border-radius: 12px;
+}
